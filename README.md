@@ -31,14 +31,6 @@ Key	Action
 Space (optional)	Fly Mode
 
 
-🚀 How to Run the Game
-Download or Clone the repository:
-git clone https://github.com/your-username/car-racing-game.git
-Open project folder.
-Double click index.html
-
-✅ Game will start in your browser.
-
 🧠 Technologies Used
 HTML5
 CSS3
@@ -54,7 +46,13 @@ Keyboard Event Handling
 Basic Game Development Logic
 
 📸 Screenshots
+### Game Start
+<img width="2137" height="1156" alt="start" src="https://github.com/user-attachments/assets/064e7bb9-02e5-48a3-85cd-abd2e8af0d18" />
 
-###Game Over
+### Gameplay
+<img width="2139" height="1177" alt="playing" src="https://github.com/user-attachments/assets/2ef3b000-d333-4923-94fc-93a5dd336c8f" />
+
+
+### Game Over
 <img width="1079" height="586" alt="image" src="https://github.com/user-attachments/assets/282ab8d4-ba00-4408-9de7-df266b5b3fc3" />
 
