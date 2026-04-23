@@ -1,17 +1,20 @@
 # Car_racing
-🚗 Car Racing Game
+### For Playing Gamde Click
+ https://anujgupta04.github.io/Car_racing/
+ 
+### 🚗 Car Racing Game
 
 A simple 2D Car Racing Game built using HTML, CSS, and JavaScript.
 Control your car, avoid enemy vehicles, and score as high as possible!
 
-🎮 Game Preview
+### 🎮 Game Preview
 Player car starts from the center of the road
 Enemy cars move toward you
 Score increases with survival time
 Collision ends the game
 
 
-✨ Features
+### ✨ Features
 
 ✅ Smooth car movement using Arrow Keys
 ✅ Random enemy cars
@@ -22,7 +25,7 @@ Collision ends the game
 ✅ Beginner-friendly JavaScript project
 
 
-🕹️ Controls
+### 🕹️ Controls
 Key	Action
 ⬆ Arrow Up	Move Forward
 ⬇ Arrow Down	Move Back
@@ -31,12 +34,13 @@ Key	Action
 Space (optional)	Fly Mode
 
 
-🧠 Technologies Used
+### 🧠 Technologies Used
 HTML5
 CSS3
 JavaScript (DOM + Animation Frame)
-🎯 Learning Purpose
 
+
+### 🎯 Learning Purpose
 This project helps beginners understand:
 
 DOM Manipulation
@@ -45,7 +49,9 @@ Collision Detection
 Keyboard Event Handling
 Basic Game Development Logic
 
-📸 Screenshots
+### 📸 Screenshots
+
+
 ### Game Start
 <img width="2137" height="1156" alt="start" src="https://github.com/user-attachments/assets/064e7bb9-02e5-48a3-85cd-abd2e8af0d18" />
 
