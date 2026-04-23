@@ -1,5 +1,5 @@
 # Car_racing
-### For Playing Gamde Click
+### For Playing Game Click
  https://anujgupta04.github.io/Car_racing/
  
 ### 🚗 Car Racing Game
