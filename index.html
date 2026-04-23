@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>F1 — Racing Game</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@300;500;700&display=swap" rel="stylesheet"/>
+</head>
+<body>
+
+  <!-- ===== START SCREEN ===== -->
+  <div id="startScreen" class="overlay active">
+    <div class="glass-panel">
+      <div class="logo-wrap">
+        <span class="logo-neon">F1</span>
+        <span class="logo-drive">DRIVE</span>
+      </div>
+      <p class="tagline">High-speed. High-stakes. Fly or die.</p>
+
+      <div class="controls-grid">
+        <div class="ctrl-item"><kbd>↑ ↓ ← →</kbd><span>Move Car</span></div>
+        <div class="ctrl-item"><kbd>SPACE</kbd><span>Fly Mode (2s)</span></div>
+        <div class="ctrl-item"><kbd>P</kbd><span>Pause / Resume</span></div>
+      </div>
+
+      <button id="startBtn" class="btn-neon">START RACE</button>
+    </div>
+  </div>
+
+  <!-- ===== PAUSE SCREEN ===== -->
+  <div id="pauseScreen" class="overlay">
+    <div class="glass-panel small">
+      <h2 class="pause-title">PAUSED</h2>
+      <p class="pause-hint">Press <kbd>P</kbd> to resume</p>
+      <button id="resumeBtn" class="btn-neon">RESUME</button>
+    </div>
+  </div>
+
+  <!-- ===== GAME OVER SCREEN ===== -->
+  <div id="gameOverScreen" class="overlay">
+    <div class="glass-panel small">
+      <h2 class="gameover-title">GAME OVER</h2>
+      <p class="final-score-label">YOUR SCORE</p>
+      <div id="finalScore" class="final-score">0</div>
+      <div id="bestScore" class="best-score">BEST: 0</div>
+      <button id="restartBtn" class="btn-neon">RESTART</button>
+    </div>
+  </div>
+
+  <!-- ===== GAME CANVAS AREA ===== -->
+  <div id="gameWrapper">
+
+    <!-- HUD -->
+    <div id="hud">
+      <div class="hud-block">
+        <span class="hud-label">SCORE</span>
+        <span id="scoreDisplay" class="hud-value">0</span>
+      </div>
+      <div class="hud-block center-hud">
+        <span id="flyIndicator" class="fly-indicator hidden">🚀 FLY MODE</span>
+        <span id="pauseIndicator" class="pause-hint-hud hidden">⏸ PAUSED</span>
+      </div>
+      <div class="hud-block right-hud">
+        <span class="hud-label">SPEED</span>
+        <span id="speedDisplay" class="hud-value">1×</span>
+      </div>
+    </div>
+
+    <!-- Road -->
+    <canvas id="gameCanvas"></canvas>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
